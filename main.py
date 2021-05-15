@@ -7,7 +7,7 @@ bot = commands.Bot(command_prefix="doge ")
 
 @bot.event
 async def on_ready():
-    await client.change_presence(status=discord.Status.idle, activity=discord.Game("..."))
+    await bot.change_presence(status=discord.Status.idle, activity=discord.Game("..."))
     print("I'm ready!")
 
 
