@@ -12,7 +12,12 @@ async def on_ready():
 
 
 @bot.command()
+async def bark(ctx):
+    await ctx.send("WAN WAN!")
+
+
+@bot.command()
 async def hi(ctx):
-    await ctx.send(f"Hi!")
+    await ctx.send("Hi!")
 
 bot.run(os.getenv("DISCORD_TOKEN"))
