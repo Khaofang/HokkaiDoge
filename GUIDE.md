@@ -5,9 +5,9 @@ This is a guide for using HokkaiDoge bot.
 ## Command prefixes
 
 To call Hokkai, you can start messages with:
-- `Doge ` or `doge `
-- `Hokkai ` or `hokkai `
-- `HokkaiDoge ` or `hokkaidoge `
+- `Doge` or `doge`
+- `Hokkai` or `hokkai`
+- `HokkaiDoge` or `hokkaidoge`
 
 ## Commands
 
