@@ -2,7 +2,14 @@ import discord
 import os
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix=["doge ", "Doge "])
+bot = commands.Bot(
+    command_prefix=[
+        "doge ",
+        "Doge ",
+        "hokkai ",
+        "Hokkai ",
+        "hokkaidoge ",
+        "HokkaiDoge "])
 
 
 @bot.event
