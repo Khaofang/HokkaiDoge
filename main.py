@@ -2,6 +2,8 @@ import discord
 import os
 from discord.ext import commands
 
+repository_url = "https://github.com/Khaofang/HokkaiDoge"
+
 bot = commands.Bot(
     command_prefix=[
         "doge ",
@@ -9,7 +11,8 @@ bot = commands.Bot(
         "hokkai ",
         "Hokkai ",
         "hokkaidoge ",
-        "HokkaiDoge "])
+        "HokkaiDoge "],
+    help_command=None)
 
 
 @bot.event
@@ -21,6 +24,16 @@ async def on_ready():
 @bot.command()
 async def bark(ctx):
     await ctx.send("WAN WAN!")
+
+
+@bot.command()
+async def help(ctx):
+    guide_url = f"{repository_url}/blob/master/GUIDE.md"
+    embed = discord.Embed(
+        title="Guide for HokkaiDoge Bot",
+        description=f"[Click here]({guide_url})",
+        colour=discord.Colour.orange())
+    await ctx.send(embed=embed)
 
 
 @bot.command()
