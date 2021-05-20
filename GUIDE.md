@@ -16,6 +16,7 @@ With these commands, Hokkai can respond to you.
 | Command  | Message | Description |
 | -------- | ------- | ----------- |
 | `bark` | `{prefix} bark` | Hokkai will bark! WAN WAN! |
+| `help` | `{prefix} help` | Hokkai will send you help. |
 | `hi` | `{prefix} hi` | Hokkai will greet you back. |
 
 For example, you can greet it with message `doge hi`.
