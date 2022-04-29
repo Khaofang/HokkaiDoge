@@ -2,6 +2,8 @@
 
 HokkaiDoge is a discord bot made for fun!
 
+Now it is UNDER MAINTENANCE, it will be returned soon.
+
 ## Version: -
 
 ## Installation
