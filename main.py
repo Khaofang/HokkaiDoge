@@ -44,4 +44,9 @@ async def help(ctx):
 async def hi(ctx):
     await ctx.send("Hi!")
 
+
+@bot.command()
+async def ping(ctx):
+    await ctx.send(f":ping_pong: Pong! In {round(bot.latency * 1000)}ms.")
+
 bot.run(os.getenv("DISCORD_TOKEN"))
